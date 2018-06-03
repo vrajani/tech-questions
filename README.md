@@ -3,8 +3,8 @@
 * Given an array of integers, every element appears twice except for one. Find that single one.
 * reverse a string but keep all special characters in place
 * serialize & deserialize a binary tree
-
 * Difference between string buffer and string builder, difference between string and String buffer
+
 * Determine whether a list of parentheses "[()]{}...etc" are balanced or unbalanced.
 * Write program to identify if two subnets collide.
 * Write program to convert a BST to heap (such as the largest number is root, the second largest is to the left of root, the third largest to right of root and so on)
