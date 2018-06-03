@@ -4,9 +4,8 @@
 * reverse a string but keep all special characters in place
 * serialize & deserialize a binary tree
 * Difference between string buffer and string builder, difference between string and String buffer
-
 * Determine whether a list of parentheses "[()]{}...etc" are balanced or unbalanced.
-* Write program to identify if two subnets collide.
+
 * Write program to convert a BST to heap (such as the largest number is root, the second largest is to the left of root, the third largest to right of root and so on)
 * Implement a linkedList
 * Multithreading questions
@@ -69,7 +68,7 @@
 * What is immutable in Java.
 * what's the difference between stack and heap in memory
 * find a string in a large doc
-* 2. two sum, do not need to deal with duplicate pairs
+* two sum, do not need to deal with duplicate pairs
 * Write a Program to Reverse words in a String
 * How will you sort 20 Gb file ? You have 4 Gb Ram ? Try to come up with solution
 * Do u know abt External sorting ?
@@ -80,6 +79,7 @@
 * ACID properties Explain with an example
 * NoSQL vs SQL
 * Checkpoints that I would use to test a chat system.
+* Write program to identify if two subnets collide.
 * What is normalization ? Explain all types .
 
 1) What is Hashmap ? how it implemented ?
