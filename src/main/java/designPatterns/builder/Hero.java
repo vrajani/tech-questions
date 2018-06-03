@@ -22,6 +22,5 @@ public class Hero {
                 .append(",hairType=").append(hairType)
                 .append(",hairColor=").append(hairColor)
                 .append("]").toString();
-
     }
 }
