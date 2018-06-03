@@ -2,11 +2,9 @@
 * design patterns
 * Given an array of integers, every element appears twice except for one. Find that single one.
 * reverse a string but keep all special characters in place
-
 * serialize & deserialize a binary tree
+
 * Difference between string buffer and string builder, difference between string and String buffer
-* String reverse and DB questions
-* Checkpoints that I would use to test a chat system.
 * Determine whether a list of parentheses "[()]{}...etc" are balanced or unbalanced.
 * Write program to identify if two subnets collide.
 * Write program to convert a BST to heap (such as the largest number is root, the second largest is to the left of root, the third largest to right of root and so on)
@@ -57,8 +55,7 @@
 * Tell me about MVC architecture?
 * How are values passed in Java? By value or by reference?
 * What is the difference between a set and a map? Can you place a set inside a map?
-* Find the Least common ancestor for two given nodes in a tree.
-  I solved this question using double recursion but the interviewer was expecting me to solve it in a better way.
+* Find the Least common ancestor for two given nodes in a tree. I solved this question using double recursion but the interviewer was expecting me to solve it in a better way.
 * How do you check if a string is palindrome or not?
 * Given two binary trees check if one is subtree of other.
 * Verify if given series is a Fibonacci series or not.
@@ -82,6 +79,7 @@
 * What is deadlock? Explain all conditions
 * ACID properties Explain with an example
 * NoSQL vs SQL
+* Checkpoints that I would use to test a chat system.
 * What is normalization ? Explain all types .
 
 1) What is Hashmap ? how it implemented ?
