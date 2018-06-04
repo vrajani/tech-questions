@@ -3,6 +3,7 @@
 ##### Intent
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 It is a Creational Design Pattern.
+
 ####Applicability
 
 Use the Builder pattern when

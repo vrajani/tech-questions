@@ -1,6 +1,6 @@
 package binarytree.serialization;
 
-import binarytree.common.TreeNode;
+import binarytree.common.LinkedTreeNode;
 
 /**
  * Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.
@@ -25,7 +25,7 @@ public class Serializer {
     private static final String SPLITTER = ",";
     private static final String NULL = "N";
     // Encodes a tree to a single string.
-    protected String serialize(TreeNode root) {
+    public String serialize(LinkedTreeNode root) {
         if (root == null) return null;
 
         StringBuilder sb = new StringBuilder();
@@ -33,7 +33,7 @@ public class Serializer {
         return sb.toString();
     }
 
-    private void buildString(TreeNode root, StringBuilder sb) {
+    private void buildString(LinkedTreeNode root, StringBuilder sb) {
         if (root == null){
             sb.append(NULL).append(SPLITTER);
         } else {
@@ -44,23 +44,25 @@ public class Serializer {
 
     }
 
+    private int index = 0;
     // Decodes your encoded data to tree.
-    protected TreeNode deserialize(String str) {
+    public LinkedTreeNode deserialize(String str) {
         if(str.isEmpty()) return null;
 
         String[] chars = str.split(SPLITTER);
-
-        return buildTree(chars, 0);
+        index = 0;
+        return buildTree(chars);
     }
 
-    private TreeNode buildTree(String[] chars, int index) {
-        String current = chars[index++];
+    private LinkedTreeNode buildTree(String[] chars) {
+        String current = chars[index];
+        index++;
         if (current.equals(NULL)) {
             return null;
         } else {
-            TreeNode currentNode = new TreeNode(Integer.parseInt(current));
-            currentNode.left = buildTree(chars,index);
-            currentNode.right = buildTree(chars, index);
+            LinkedTreeNode currentNode = new LinkedTreeNode(Integer.parseInt(current));
+            currentNode.left = buildTree(chars);
+            currentNode.right = buildTree(chars);
             return currentNode;
         }
 
@@ -68,7 +70,7 @@ public class Serializer {
 
     public static void main (String[] args){
         Serializer serializer = new Serializer();
-        TreeNode root = serializer.deserialize("1,2,3,N,N,4,5,N,N,N,N");
+        LinkedTreeNode root = serializer.deserialize("1,2,N,N,3,4,N,N,5,N,N");
         System.out.println(root.val);
         String str = serializer.serialize(root);
         System.out.println(str);
