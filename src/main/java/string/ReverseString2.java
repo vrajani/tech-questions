@@ -1,14 +1,11 @@
 package string;
 
+import framework.Solution;
+
 /**
  * reverse a string but keep all special characters in place
  */
-public class ReverseString2 {
-
-    public static void main(String[] args){
-        ReverseString2 reverseString2 = new ReverseString2();
-        System.out.println(reverseString2.reverse("gh7$l"));
-    }
+public class ReverseString2 extends Solution {
 
     private String reverse(String s) {
 
@@ -30,5 +27,10 @@ public class ReverseString2 {
             j--;
         }
         return new String (chars);
+    }
+
+    @Override
+    protected void execute() {
+        System.out.println(reverse("gh7$l"));
     }
 }

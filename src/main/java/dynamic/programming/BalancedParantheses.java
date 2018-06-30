@@ -1,16 +1,12 @@
 package dynamic.programming;
 
+import framework.Solution;
 import java.util.Stack;
 
 /**
  * Determine whether a list of parentheses "[()]{}...etc" are balanced or unbalanced.
  */
-public class BalancedParantheses {
-
-    public static void main (String[] args){
-        BalancedParantheses balancedParantheses = new BalancedParantheses();
-        System.out.println(balancedParantheses.check("()[()]"));
-    }
+public class BalancedParantheses extends Solution {
 
     private boolean check(String str) {
         Stack<Character> characterStack = new Stack<>();
@@ -28,5 +24,10 @@ public class BalancedParantheses {
             }
         }
         return true;
+    }
+
+    @Override
+    protected void execute() {
+        System.out.println(check("()[()]"));
     }
 }

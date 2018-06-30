@@ -3,6 +3,7 @@ package binarytree.search.heapify;
 import binarytree.common.TreeNode;
 import binarytree.common.Util;
 import binarytree.serialization.Serializer;
+import framework.Solution;
 
 import java.util.Stack;
 
@@ -25,16 +26,9 @@ import java.util.Stack;
  * / \  / \
  *4  3 2  1
  *  */
-public class BSTToHEAP {
 
-    public static void main (String[] args){
-        BSTToHEAP bstToHeap = new BSTToHEAP();
-        TreeNode root = Util.formTreeFrom("4,2,1,N,N,3,N,N,5,6,N,N,7,N,N");
-
-        Stack<TreeNode> nodeStack = new Stack<>();
-        TreeNode heapRoot = null;
-        bstToHeap.convert(root, heapRoot, nodeStack);
-    }
+//TODO: incomplete Solution
+public class BSTToHEAP extends Solution {
 
     private TreeNode convert(TreeNode root, TreeNode heapNode, Stack<TreeNode> nodeStack) {
         TreeNode current = root;
@@ -48,5 +42,14 @@ public class BSTToHEAP {
             //heapNode.right =
         }
         return heapNode;
+    }
+
+    @Override
+    protected void execute() {
+        TreeNode root = Util.formTreeFrom("4,2,1,N,N,3,N,N,5,6,N,N,7,N,N");
+
+        Stack<TreeNode> nodeStack = new Stack<>();
+        TreeNode heapRoot = null;
+        convert(root, heapRoot, nodeStack);
     }
 }

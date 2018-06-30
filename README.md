@@ -8,9 +8,10 @@
 * What is data type? What is advantage of Having data type? what will happen if we do not have data type. Advantage and disadvantage.
 * BinarySearch
 * Given a binary tree, link nodes at the same level
+* Anagrams
+* Implement a linkedList
 
 * Write program to convert a BST to heap (such as the largest number is root, the second largest is to the left of root, the third largest to right of root and so on)
-* Implement a linkedList
 * find the palindromes in a string
 * Find max consecutive sum in an array
 * You are given two jugs with capacities x and y litres. There is an infinite amount of water supply available. You need to determine whether it is possible to measure exactly z litres using these two jugs.
@@ -21,7 +22,6 @@
   2. How to search in Skiplist
   2nd round:
   2. How to write Customized Comparator
-  3. Anagrams
   3rd round:
   Lunch with tech manager and find maximum sub array
   4th round:
@@ -39,7 +39,6 @@
 
 * Can you implement a stack?
 * max contiguous sum
-* implement binary search
 * Find the least common ancestor (LCA) in a binary tree. Pointer from node to parent is NOT present. Design the tree node and write the method that returns the LCA
 * Given a circularly rotated array [3 5 6 7 8 -3 -1 -1 1 2] design an algorithm to find an element in an efficient way.
 * 2. Write a SQL queries using Group by and having.

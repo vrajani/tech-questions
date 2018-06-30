@@ -1,6 +1,7 @@
 package binarytree.serialization;
 
 import binarytree.common.LinkedTreeNode;
+import framework.Solution;
 
 /**
  * Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.
@@ -19,7 +20,7 @@ import binarytree.common.LinkedTreeNode;
  *
  * as "[1,2,3,null,null,4,5]"
  */
-public class Serializer {
+public class Serializer extends Solution {
 
 
     private static final String SPLITTER = ",";
@@ -68,14 +69,14 @@ public class Serializer {
 
     }
 
-    public static void main (String[] args){
-        Serializer serializer = new Serializer();
-        LinkedTreeNode root = serializer.deserialize("1,2,N,N,3,4,N,N,5,N,N");
+    @Override
+    protected void execute() {
+        LinkedTreeNode root = deserialize("1,2,N,N,3,4,N,N,5,N,N");
         System.out.println(root.val);
-        String str = serializer.serialize(root);
+        String str = serialize(root);
         System.out.println(str);
 
-        if (root.left.val == serializer.deserialize(str).left.val){
+        if (root.left.val == deserialize(str).left.val){
             System.out.println("equals");
         }
     }

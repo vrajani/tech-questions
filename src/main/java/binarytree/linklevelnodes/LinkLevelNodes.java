@@ -1,7 +1,8 @@
-package binarytree;
+package binarytree.linklevelnodes;
 
 import binarytree.common.LinkedTreeNode;
 import binarytree.common.Util;
+import framework.Solution;
 
 /**
  * * Given a binary tree, link nodes at the same level
@@ -14,9 +15,10 @@ import binarytree.common.Util;
  *  *
  *
  */
-public class LinkLevelNodes {
+public class LinkLevelNodes extends Solution {
 
-    public static void main (String[] args){
+    @Override
+    public void execute (){
         LinkedTreeNode root = (LinkedTreeNode) Util.formTreeFrom("4,2,1,N,N,3,N,N,6,5,N,N,7,N,N");
         LinkLevelNodes linkLevelNodes = new LinkLevelNodes();
         linkLevelNodes.addLinks(root);
