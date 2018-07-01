@@ -8,6 +8,7 @@ import dynamic.programming.BalancedParantheses;
 import string.Anagrams;
 import string.BSTValidation;
 import string.ReverseString2;
+import string.palindrome.Palindromes;
 
 public abstract class Solution {
 
@@ -23,6 +24,8 @@ public abstract class Solution {
                 return new BSTValidation();
             case "ReverseString2":
                 return new ReverseString2();
+            case "Palindromes":
+                return new Palindromes();
 
             // Binary Tree
             case "BSTToHEAP":
