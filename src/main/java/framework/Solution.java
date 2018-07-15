@@ -1,5 +1,6 @@
 package framework;
 
+import array.ThreeSum;
 import binarytree.linklevelnodes.LinkLevelNodes;
 import binarytree.search.heapify.BSTToHEAP;
 import binarytree.serialization.Serializer;
@@ -16,6 +17,10 @@ public abstract class Solution {
 
     protected static Solution getSoutionInstance(String className) {
         switch (className){
+
+            // Arrays
+            case "ThreeSum":
+                return new ThreeSum();
 
             // Strings
             case "Anagrams":

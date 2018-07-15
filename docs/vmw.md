@@ -1,3 +1,5 @@
+# Questions:
+
 * difference between @component and @service.
 * Count of friends at 3 degree of separation
 * To check an ip address is IPv4 or IPv6

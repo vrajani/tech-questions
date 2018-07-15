@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * find the palindromes in a string
+ * find all the possible palindromes(more than a single character) in a string
  */
 public class Palindromes extends Solution {
     @Override
     protected void execute() {
-        String input = "abbdb";
+        String input = "abbdbthejbsljbbgkjrksalrjbvl ljhjhjjh";
         System.out.println("Input: "+ input);
         System.out.println("Palindromes: " + findPalindromes(input));
     }
