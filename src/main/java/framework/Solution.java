@@ -1,5 +1,6 @@
 package framework;
 
+import array.MatrixZeros;
 import array.ThreeSum;
 import binarytree.linklevelnodes.LinkLevelNodes;
 import binarytree.search.heapify.BSTToHEAP;
@@ -21,6 +22,8 @@ public abstract class Solution {
             // Arrays
             case "ThreeSum":
                 return new ThreeSum();
+            case "MatrixZeros":
+                return new MatrixZeros();
 
             // Strings
             case "Anagrams":
