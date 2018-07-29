@@ -1,5 +1,7 @@
 package bit.manipulation;
 
+import framework.Solution;
+
 /**
  * Given a non-empty array of integers, every element appears twice except for one. Find that single one.
  *
@@ -16,7 +18,7 @@ package bit.manipulation;
  * Input: [4,1,2,1,2]
  * Output: 4
  */
-public class SingleElement {
+public class SingleElement extends Solution {
     private int singleNumber(int A[]) {
         for (int i = 1; i < A.length ; i++)
         {
@@ -25,9 +27,9 @@ public class SingleElement {
         return A[0];
     }
 
-    public static void main(String[] args){
-        SingleElement singleElement = new SingleElement();
+    @Override
+    protected void execute() {
         int[] data = new int[] {6,7,6,5,7};
-        System.out.println(singleElement.singleNumber(data));
+        System.out.println(singleNumber(data));
     }
 }
