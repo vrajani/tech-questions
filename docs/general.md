@@ -81,3 +81,20 @@
 2) What is arraylist ? Difference between array and arraylist ?
 3) What is difference between int and Integer in java?
 4) Difference between Hashtable and Hashmap ?
+
+
+Difference between finally final and finalize
+What are functional interfaces
+Why Carfax?
+When do you use Denormalization?
+What need to be included in try catch to make sure finally is not executed
+Difference between throw and throws
+What are the different interfaces in collection framework
+Normalization, joins, unions
+hadoop
+What is polymorphism?
+Why do we use till 3NF only?
+How do you deal with failure?
+What is MVC and have you worked on any projects that utilize MVC?
+fizzbuzz
+What is OOD? What is private, public and protected? Basic java questions.
