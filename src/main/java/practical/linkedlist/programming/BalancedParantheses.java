@@ -1,4 +1,4 @@
-package dynamic.programming;
+package practical.linkedlist.programming;
 
 import framework.Solution;
 import java.util.Stack;

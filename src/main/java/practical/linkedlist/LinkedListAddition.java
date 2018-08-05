@@ -1,4 +1,4 @@
-package linkedlist;
+package practical.linkedlist;
 
 import framework.Solution;
 /**

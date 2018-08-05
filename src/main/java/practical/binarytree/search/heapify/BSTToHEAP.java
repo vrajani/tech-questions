@@ -1,8 +1,7 @@
-package binarytree.search.heapify;
+package practical.binarytree.search.heapify;
 
-import binarytree.common.TreeNode;
-import binarytree.common.Util;
-import binarytree.serialization.Serializer;
+import practical.binarytree.common.TreeNode;
+import practical.binarytree.common.Util;
 import framework.Solution;
 
 import java.util.Stack;

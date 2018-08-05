@@ -10,7 +10,7 @@
 * StringBuffer is mutable means one can change the value of the object . The object created through StringBuffer is stored in the heap. StringBuffer has the same methods as the StringBuilder , but each method in StringBuffer is synchronized that is StringBuffer is thread safe .
 * Due to this it does not allow two threads to simultaneously access the same method . Each method can be accessed by one thread at a time .
 * But being thread safe has disadvantages too as the performance of the StringBuffer hits due to thread safe property . Thus StringBuilder is faster than the StringBuffer when calling the same methods of each class.
-* String Buffer can be converted to the string by using toString() method.
+* String Buffer can be converted to the practical.string by using toString() method.
 
 `StringBuffer demo1 = new StringBuffer("Hello") ;
 // The above object stored in heap and its value can be changed .

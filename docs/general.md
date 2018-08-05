@@ -1,29 +1,29 @@
 # Software problems and examples
 * design patterns
-* Given an array of integers, every element appears twice except for one. Find that single one.
-* reverse a string but keep all special characters in place
+* Given an practical.array of integers, every element appears twice except for one. Find that single one.
+* reverse a practical.string but keep all special characters in place
 * serialize & deserialize a binary tree
-* Difference between string buffer and string builder, difference between string and String buffer
+* Difference between practical.string buffer and practical.string builder, difference between practical.string and String buffer
 * Determine whether a list of parentheses "[()]{}...etc" are balanced or unbalanced.
 * What is data type? What is advantage of Having data type? what will happen if we do not have data type. Advantage and disadvantage.
 * BinarySearch
 * Given a binary tree, link nodes at the same level
 * Anagrams
 * Implement a linkedList
-* find the palindromes in a string
+* find the palindromes in a practical.string
 
 * Write program to convert a BST to heap (such as the largest number is root, the second largest is to the left of root, the third largest to right of root and so on)
-* Find max consecutive sum in an array
+* Find max consecutive sum in an practical.array
 * You are given two jugs with capacities x and y litres. There is an infinite amount of water supply available. You need to determine whether it is possible to measure exactly z litres using these two jugs.
 * Number of ways to walk the matrix from (0,0) to (m,n). (with and without obstacles)
 * Design a service. Things to consider given service constraints, SLA and so on.
 * 1st round:
-  1. How to uniquely identify the repeating strings from the array.
+  1. How to uniquely identify the repeating strings from the practical.array.
   2. How to search in Skiplist
   2nd round:
   2. How to write Customized Comparator
   3rd round:
-  Lunch with tech manager and find maximum sub array
+  Lunch with tech manager and find maximum sub practical.array
   4th round:
   1. Binary Search in sorted matrix
   2. Different ways of writing Singleton pattern
@@ -40,7 +40,7 @@
 * Can you implement a stack?
 * max contiguous sum
 * Find the least common ancestor (LCA) in a binary tree. Pointer from node to parent is NOT present. Design the tree node and write the method that returns the LCA
-* Given a circularly rotated array [3 5 6 7 8 -3 -1 -1 1 2] design an algorithm to find an element in an efficient way.
+* Given a circularly rotated practical.array [3 5 6 7 8 -3 -1 -1 1 2] design an algorithm to find an element in an efficient way.
 * 2. Write a SQL queries using Group by and having.
 * determine if two rectangles overlap.
 * Longest Common Subsequence, DFS and print paths from the root node to all the nodes in the tree
@@ -63,7 +63,7 @@
 * On Site: Given a huge file, find duplicate strings and return how many times it appeared. Given a table of employee and salary, find the highest salary in each department.
 * What is immutable in Java.
 * what's the difference between stack and heap in memory
-* find a string in a large doc
+* find a practical.string in a large doc
 * two sum, do not need to deal with duplicate pairs
 * Write a Program to Reverse words in a String
 * How will you sort 20 Gb file ? You have 4 Gb Ram ? Try to come up with solution
@@ -78,23 +78,17 @@
 * What is normalization ? Explain all types .
 
 1) What is Hashmap ? how it implemented ?
-2) What is arraylist ? Difference between array and arraylist ?
+2) What is arraylist ? Difference between practical.array and arraylist ?
 3) What is difference between int and Integer in java?
 4) Difference between Hashtable and Hashmap ?
 
 
-Difference between finally final and finalize
-What are functional interfaces
-Why Carfax?
 When do you use Denormalization?
 What need to be included in try catch to make sure finally is not executed
-Difference between throw and throws
 What are the different interfaces in collection framework
 Normalization, joins, unions
 hadoop
-What is polymorphism?
 Why do we use till 3NF only?
 How do you deal with failure?
 What is MVC and have you worked on any projects that utilize MVC?
-fizzbuzz
 What is OOD? What is private, public and protected? Basic java questions.

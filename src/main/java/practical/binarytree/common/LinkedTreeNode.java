@@ -1,4 +1,4 @@
-package binarytree.common;
+package practical.binarytree.common;
 
 public class LinkedTreeNode extends TreeNode {
     public LinkedTreeNode(int x) {

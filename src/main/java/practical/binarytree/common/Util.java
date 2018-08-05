@@ -1,6 +1,6 @@
-package binarytree.common;
+package practical.binarytree.common;
 
-import binarytree.serialization.Serializer;
+import practical.binarytree.serialization.Serializer;
 
 public class Util {
 

@@ -1,7 +1,7 @@
-package binarytree.linklevelnodes;
+package practical.binarytree.linklevelnodes;
 
-import binarytree.common.LinkedTreeNode;
-import binarytree.common.Util;
+import practical.binarytree.common.LinkedTreeNode;
+import practical.binarytree.common.Util;
 import framework.Solution;
 
 /**

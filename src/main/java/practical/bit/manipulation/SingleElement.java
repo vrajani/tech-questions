@@ -1,9 +1,9 @@
-package bit.manipulation;
+package practical.bit.manipulation;
 
 import framework.Solution;
 
 /**
- * Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+ * Given a non-empty practical.array of integers, every element appears twice except for one. Find that single one.
  *
  * Note:
  *

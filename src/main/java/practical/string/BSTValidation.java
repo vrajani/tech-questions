@@ -1,4 +1,4 @@
-package string;
+package practical.string;
 
 import framework.Solution;
 

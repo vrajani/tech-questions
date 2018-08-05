@@ -18,13 +18,13 @@ Matrix multiplication
 Write a code to add/subtract two linked lists that contained a digit each to represent huge numbers.
     e.g. 1 -> 4 -> 4 + 1 ->9 -> 5
          1 -> 4 -> 4 - 1 ->9 -> 5
-Reverse a string
+Reverse a practical.string
 Create a function that accepts two strings in return if they are anagrams of each other
-Write a java program to replace a new string in place of old string from Input string.
+Write a java program to replace a new practical.string in place of old practical.string from Input practical.string.
 Given a list of strings, provide the number of strings that are unique within the list.
 Is the given number a bitwise palindrome?
 Given a vector of integers, return true if each integer has a duplicate within the vector and false if not
-finding maximum sum in a row in the interger array (contains minus)
+finding maximum sum in a row in the interger practical.array (contains minus)
 
 
 

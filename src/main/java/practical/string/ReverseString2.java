@@ -1,9 +1,9 @@
-package string;
+package practical.string;
 
 import framework.Solution;
 
 /**
- * reverse a string but keep all special characters in place
+ * reverse a practical.string but keep all special characters in place
  */
 public class ReverseString2 extends Solution {
 

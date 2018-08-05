@@ -1,4 +1,4 @@
-package array;
+package practical.array;
 
 import framework.Solution;
 

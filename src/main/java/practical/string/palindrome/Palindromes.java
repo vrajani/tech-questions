@@ -1,4 +1,4 @@
-package string.palindrome;
+package practical.string.palindrome;
 
 import framework.Solution;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * find all the possible palindromes(more than a single character) in a string
+ * find all the possible palindromes(more than a single character) in a practical.string
  */
 public class Palindromes extends Solution {
     @Override

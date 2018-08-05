@@ -1,12 +1,12 @@
-package binarytree.serialization;
+package practical.binarytree.serialization;
 
-import binarytree.common.LinkedTreeNode;
+import practical.binarytree.common.LinkedTreeNode;
 import framework.Solution;
 
 /**
  * Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.
  *
- * Design an algorithm to serialize and deserialize a binary tree. There is no restriction on how your serialization/deserialization algorithm should work. You just need to ensure that a binary tree can be serialized to a string and this string can be deserialized to the original tree structure.
+ * Design an algorithm to serialize and deserialize a binary tree. There is no restriction on how your serialization/deserialization algorithm should work. You just need to ensure that a binary tree can be serialized to a practical.string and this practical.string can be deserialized to the original tree structure.
  *
  * Example:
  *
@@ -25,7 +25,7 @@ public class Serializer extends Solution {
 
     private static final String SPLITTER = ",";
     private static final String NULL = "N";
-    // Encodes a tree to a single string.
+    // Encodes a tree to a single practical.string.
     public String serialize(LinkedTreeNode root) {
         if (root == null) return null;
 

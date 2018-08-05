@@ -1,16 +1,16 @@
 package framework;
 
-import array.MatrixZeros;
-import array.ThreeSum;
-import binarytree.linklevelnodes.LinkLevelNodes;
-import binarytree.search.heapify.BSTToHEAP;
-import binarytree.serialization.Serializer;
-import bit.manipulation.SingleElement;
-import dynamic.programming.BalancedParantheses;
-import string.Anagrams;
-import string.BSTValidation;
-import string.ReverseString2;
-import string.palindrome.Palindromes;
+import practical.array.MatrixZeros;
+import practical.array.ThreeSum;
+import practical.binarytree.linklevelnodes.LinkLevelNodes;
+import practical.binarytree.search.heapify.BSTToHEAP;
+import practical.binarytree.serialization.Serializer;
+import practical.bit.manipulation.SingleElement;
+import practical.linkedlist.programming.BalancedParantheses;
+import practical.string.Anagrams;
+import practical.string.BSTValidation;
+import practical.string.ReverseString2;
+import practical.string.palindrome.Palindromes;
 
 public abstract class Solution {
 

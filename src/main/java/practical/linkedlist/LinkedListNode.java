@@ -1,4 +1,4 @@
-package linkedlist;
+package practical.linkedlist;
 
 public class LinkedListNode {
     int value;
