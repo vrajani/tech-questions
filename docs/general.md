@@ -11,6 +11,10 @@
 * Anagrams
 * Implement a linkedList
 * find the palindromes in a practical.string
+* abstract classes vs. interfaces
+* Explain class inheritance and how polymorphism fits into it.
+* What are functional interfaces
+* What need to be included in try catch to make sure finally is not executed
 
 * Write program to convert a BST to heap (such as the largest number is root, the second largest is to the left of root, the third largest to right of root and so on)
 * Find max consecutive sum in an practical.array
