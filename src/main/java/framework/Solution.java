@@ -6,6 +6,7 @@ import practical.binarytree.linklevelnodes.LinkLevelNodes;
 import practical.binarytree.search.heapify.BSTToHEAP;
 import practical.binarytree.serialization.Serializer;
 import practical.bit.manipulation.SingleElement;
+import practical.common.Finally;
 import practical.linkedlist.programming.BalancedParantheses;
 import practical.string.Anagrams;
 import practical.string.BSTValidation;
@@ -50,6 +51,10 @@ public abstract class Solution {
             // Dynamic Programming
             case "BalancedParantheses":
                 return new BalancedParantheses();
+
+            // common experiments
+            case "Finally":
+                return new Finally();
 
             default:
                 return null;

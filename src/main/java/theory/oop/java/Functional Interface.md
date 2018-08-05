@@ -1,4 +1,4 @@
-#Functional Interface
+# Functional Interface
 
 Functional Interface in Java represents an interface with one method except static , default and overridden method from Object. 
 

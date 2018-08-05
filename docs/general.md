@@ -84,7 +84,6 @@
 
 
 When do you use Denormalization?
-What need to be included in try catch to make sure finally is not executed
 What are the different interfaces in collection framework
 Normalization, joins, unions
 hadoop

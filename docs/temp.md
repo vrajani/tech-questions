@@ -9,3 +9,4 @@ database structures.
 abstract classes vs. interfaces
 Explain class inheritance and how polymorphism fits into it.
 What are functional interfaces
+What need to be included in try catch to make sure finally is not executed
