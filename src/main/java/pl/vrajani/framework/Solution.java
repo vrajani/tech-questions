@@ -8,6 +8,7 @@ import pl.vrajani.solution.binarytree.serialization.Serializer;
 import pl.vrajani.solution.bit.manipulation.SingleElement;
 import pl.vrajani.solution.common.Finally;
 import pl.vrajani.solution.linkedlist.programming.BalancedParantheses;
+import pl.vrajani.solution.sorting.mergesort.MergeSort;
 import pl.vrajani.solution.string.Anagrams;
 import pl.vrajani.solution.string.BSTValidation;
 import pl.vrajani.solution.string.ReverseString2;
@@ -51,6 +52,10 @@ public abstract class Solution {
             // Dynamic Programming
             case "BalancedParantheses":
                 return new BalancedParantheses();
+
+            // Sorting
+            case "MergeSort":
+                return new MergeSort();
 
             // common experiments
             case "Finally":

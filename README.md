@@ -26,8 +26,7 @@
 ### Bit Operations
 	- Bitwise Operations (&, |, ^, ~, >>, <<) and pluses and minuses
 	- Bit Manipultations
-	- 1s and 2s complement
-	 
+	- 1s and 2s complement	 
 
 ### Algorithms
 	- Tree
@@ -65,13 +64,11 @@
 	- String 
 	- arrays
 	- Collections
+	- Multithreading
+	- Garbage collection
 	- Design Patterns
 	- Interface vs Abstract Class
 	- keywords [transient, final, static, etc]
-
-
-
-
 
 ### Experience Questions that are likely to be asked:
 - Why do you want this job?
