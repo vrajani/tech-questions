@@ -9,6 +9,7 @@ import pl.vrajani.solution.bit.manipulation.SingleElement;
 import pl.vrajani.solution.common.Finally;
 import pl.vrajani.solution.linkedlist.programming.BalancedParantheses;
 import pl.vrajani.solution.sorting.mergesort.MergeSort;
+import pl.vrajani.solution.sorting.mergesort.QuickSort;
 import pl.vrajani.solution.string.Anagrams;
 import pl.vrajani.solution.string.BSTValidation;
 import pl.vrajani.solution.string.ReverseString2;
@@ -56,6 +57,8 @@ public abstract class Solution {
             // Sorting
             case "MergeSort":
                 return new MergeSort();
+            case "QuickSort":
+                return new QuickSort();
 
             // common experiments
             case "Finally":
