@@ -1,4 +1,4 @@
-package pl.vrajani.solution.sorting.quicksort;
+package pl.vrajani.algorithm.sorting.quicksort;
 
 import pl.vrajani.framework.Solution;
 

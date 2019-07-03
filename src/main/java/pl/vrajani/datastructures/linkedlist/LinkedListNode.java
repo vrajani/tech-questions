@@ -1,4 +1,4 @@
-package pl.vrajani.solution.linkedlist.impl;
+package pl.vrajani.datastructures.linkedlist;
 
 public class LinkedListNode<T> {
     public T value;

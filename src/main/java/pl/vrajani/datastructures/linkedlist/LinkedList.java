@@ -1,4 +1,4 @@
-package pl.vrajani.solution.linkedlist.impl;
+package pl.vrajani.datastructures.linkedlist;
 
 import java.util.NoSuchElementException;
 
@@ -160,7 +160,7 @@ public class LinkedList<T> {
             current.next = newNode;
             newNode.next = temp;
         } else {
-            throw new RuntimeException("Target Element not found.")
+            throw new RuntimeException("Target Element not found.");
         }
     }
 

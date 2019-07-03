@@ -1,4 +1,4 @@
-package pl.vrajani.solution.sorting.mergesort;
+package pl.vrajani.algorithm.sorting.mergesort;
 
 import pl.vrajani.framework.Solution;
 
