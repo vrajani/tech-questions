@@ -7,7 +7,7 @@ import pl.vrajani.solution.binarytree.search.heapify.BSTToHEAP;
 import pl.vrajani.solution.binarytree.serialization.Serializer;
 import pl.vrajani.solution.bit.manipulation.SingleElement;
 import pl.vrajani.solution.common.Finally;
-import pl.vrajani.solution.linkedlist.programming.BalancedParantheses;
+import pl.vrajani.solution.linkedlist.BalancedParantheses;
 import pl.vrajani.solution.sorting.mergesort.MergeSort;
 import pl.vrajani.solution.sorting.mergesort.QuickSort;
 import pl.vrajani.solution.string.Anagrams;

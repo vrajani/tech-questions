@@ -1,4 +1,4 @@
-package pl.vrajani.solution.linkedlist.programming;
+package pl.vrajani.solution.linkedlist;
 
 import pl.vrajani.framework.Solution;
 import java.util.Stack;

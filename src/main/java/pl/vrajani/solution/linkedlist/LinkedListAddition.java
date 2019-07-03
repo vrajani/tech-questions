@@ -1,6 +1,8 @@
 package pl.vrajani.solution.linkedlist;
 
 import pl.vrajani.framework.Solution;
+import pl.vrajani.solution.linkedlist.impl.LinkedListNode;
+
 /**
  * Write a code to add/subtract two linked lists that contained a digit each to represent huge numbers.
  *     e.g. 1 -> 4 -> 4 + 1 ->9 -> 5
