@@ -1,5 +1,6 @@
 package pl.vrajani.framework;
 
+import pl.vrajani.datastructures.stack.ArrayStackTest;
 import pl.vrajani.solution.array.MatrixZeros;
 import pl.vrajani.solution.array.ThreeSum;
 import pl.vrajani.solution.binarytree.linklevelnodes.LinkLevelNodes;
@@ -9,7 +10,7 @@ import pl.vrajani.solution.bit.manipulation.SingleElement;
 import pl.vrajani.solution.common.Finally;
 import pl.vrajani.solution.linkedlist.BalancedParantheses;
 import pl.vrajani.algorithm.sorting.mergesort.MergeSort;
-import pl.vrajani.algorithm.sorting.mergesort.QuickSort;
+import pl.vrajani.algorithm.sorting.quicksort.QuickSort;
 import pl.vrajani.solution.string.Anagrams;
 import pl.vrajani.solution.string.BSTValidation;
 import pl.vrajani.solution.string.ReverseString2;
@@ -37,6 +38,10 @@ public abstract class Solution {
                 return new ReverseString2();
             case "Palindromes":
                 return new Palindromes();
+
+            //Data Structures
+            case "ArrayStackTest":
+                return new ArrayStackTest();
 
             // Binary Tree
             case "BSTToHEAP":
