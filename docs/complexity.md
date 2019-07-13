@@ -33,3 +33,15 @@ n - 1 + T(1) = (*)
 n - 1 + 1= Θ(n)
 ```
 
+
+### Data Structure Complexities
+
+| Data Structure      | Access      | Search  |  Insertion | Deletion  |
+|---------------------|-------------|---------|------------|-----------|
+| Array               |	Θ(1)      |	Θ(n)	  |  Θ(n)	   | Θ(n)	   |
+| Stack               |	Θ(n)      |	Θ(n)	  |  Θ(1)	   | Θ(1)	   |
+| Queue               |	Θ(n)      |	Θ(n)	  |  Θ(1)	   | Θ(1)	   |
+| Singly-Linked List  |	Θ(n)      |	Θ(n)	  |  Θ(1)	   | Θ(1)	   |
+| Doubly-Linked List  |	Θ(n)      |	Θ(n)	  |  Θ(1)	   | Θ(1)	   |
+| Hash Table          |	N/A	      | Θ(1)	  |  Θ(1)	   | Θ(1)	   |
+| Binary Search Tree  |	Θ(log(n)) |	Θ(log(n)  |	 Θ(log(n)) | Θ(log(n)) |
