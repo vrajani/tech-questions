@@ -1,5 +1,6 @@
 package pl.vrajani.framework;
 
+import pl.vrajani.datastructures.queue.LinkedListQueueTest;
 import pl.vrajani.datastructures.stack.ArrayStackTest;
 import pl.vrajani.solution.array.MatrixZeros;
 import pl.vrajani.solution.array.ThreeSum;
@@ -42,6 +43,8 @@ public abstract class Solution {
             //Data Structures
             case "ArrayStackTest":
                 return new ArrayStackTest();
+            case "LinkedListQueueTest":
+                return new LinkedListQueueTest();
 
             // Binary Tree
             case "BSTToHEAP":

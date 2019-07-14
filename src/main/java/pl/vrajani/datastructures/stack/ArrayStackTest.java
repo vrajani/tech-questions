@@ -21,6 +21,8 @@ public class ArrayStackTest extends Solution {
 
         System.out.println("Stack is empty? "+ stack.isEmpty());
         System.out.println("Stack is Full? " + stack.isFull());
+        System.out.println("Search Element '4', result = " + stack.search(4));
+        System.out.println("Search Element '1', result = " + stack.search(1));
 
         System.out.println("Stack Peek: " + stack.peek());
         System.out.println("Stack POP: " + stack.pop());

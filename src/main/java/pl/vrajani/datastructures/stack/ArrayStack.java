@@ -65,4 +65,16 @@ public class ArrayStack<T> implements Stack<T> {
     public boolean isFull() {
         return this.top == arr.length-1;
     }
+
+    @Override
+    public boolean search(T e) {
+        if(!isEmpty()){
+            for(int i = 0; i <= top; i++){
+                if(arr[i].equals(e)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
