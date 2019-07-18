@@ -1,5 +1,7 @@
 package pl.vrajani.framework;
 
+import pl.vrajani.algorithm.sorting.mergesort.MergeSortTest;
+import pl.vrajani.algorithm.sorting.quicksort.QuickSort;
 import pl.vrajani.datastructures.queue.LinkedListQueueTest;
 import pl.vrajani.datastructures.stack.ArrayStackTest;
 import pl.vrajani.solution.array.MatrixZeros;
@@ -10,8 +12,6 @@ import pl.vrajani.solution.binarytree.serialization.Serializer;
 import pl.vrajani.solution.bit.manipulation.SingleElement;
 import pl.vrajani.solution.common.Finally;
 import pl.vrajani.solution.linkedlist.BalancedParantheses;
-import pl.vrajani.algorithm.sorting.mergesort.MergeSort;
-import pl.vrajani.algorithm.sorting.quicksort.QuickSort;
 import pl.vrajani.solution.string.Anagrams;
 import pl.vrajani.solution.string.BSTValidation;
 import pl.vrajani.solution.string.ReverseString2;
@@ -63,8 +63,8 @@ public abstract class Solution {
                 return new BalancedParantheses();
 
             // Sorting
-            case "MergeSort":
-                return new MergeSort();
+            case "MergeSortTest":
+                return new MergeSortTest();
             case "QuickSort":
                 return new QuickSort();
 

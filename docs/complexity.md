@@ -36,8 +36,8 @@ n - 1 + 1= Θ(n)
 
 ### Data Structure Complexities
 
-| Data Structure      | Access      | Search  |  Insertion | Deletion  |
-|---------------------|-------------|---------|------------|-----------|
+| Data Structure      | Access    | Search    |  Insertion | Deletion  |
+|---------------------|-----------|-----------|------------|-----------|
 | Array               |	Θ(1)      |	Θ(n)	  |  Θ(n)	   | Θ(n)	   |
 | Stack               |	Θ(n)      |	Θ(n)	  |  Θ(1)	   | Θ(1)	   |
 | Queue               |	Θ(n)      |	Θ(n)	  |  Θ(1)	   | Θ(1)	   |

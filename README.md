@@ -16,7 +16,7 @@
 	- Queue
 		- Simple Queue
 		- Priority Queue
-	- Hash Table
+	- Hash Map
 	- Tree
 		- Basic Tree
 		- Binary Tree
