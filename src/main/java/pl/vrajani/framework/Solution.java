@@ -1,5 +1,7 @@
 package pl.vrajani.framework;
 
+import pl.vrajani.algorithm.sorting.bubblesort.BubbleSort;
+import pl.vrajani.algorithm.sorting.bubblesort.BubbleSortTest;
 import pl.vrajani.algorithm.sorting.mergesort.MergeSortTest;
 import pl.vrajani.algorithm.sorting.quicksort.QuickSort;
 import pl.vrajani.datastructures.queue.LinkedListQueueTest;
@@ -67,6 +69,8 @@ public abstract class Solution {
                 return new MergeSortTest();
             case "QuickSort":
                 return new QuickSort();
+            case "BubbleSortTest":
+                return new BubbleSortTest();
 
             // common experiments
             case "Finally":

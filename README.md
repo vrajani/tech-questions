@@ -41,6 +41,7 @@
 		- Insertion Sort
 		- Quick Sort
 		- Selection Sort
+		- Radix Sort
 	- Graphs
 		- DFS
 		- BFS
