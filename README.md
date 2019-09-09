@@ -39,7 +39,6 @@
 		- Quick Sort
 		- Bubble Sort
 		- Insertion Sort
-		- Quick Sort
 		- Selection Sort
 		- Radix Sort
 	- Graphs
