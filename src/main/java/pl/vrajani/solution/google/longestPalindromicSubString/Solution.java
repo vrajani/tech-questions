@@ -3,9 +3,7 @@ package pl.vrajani.solution.google.longestPalindromicSubString;
 public class Solution {
 
     public static void main(String[] args) {
-
-        System.out.println(new Solution().longestPalindrome("babad"));
-
+        System.out.println(new Solution().longestPalindrome("cbbd"));
     }
 
     private String longestPalindrome(String s) {
@@ -15,15 +13,32 @@ public class Solution {
         }
         String palindrome = "";
         char[] chars = s.toCharArray();
-        for(int i = 0; i < chars.length-1; i++){
-            String oddPalindrome = getLongestPalindrome(s, i, i);
-            if(oddPalindrome.length() > palindrome.length()){
-                palindrome = oddPalindrome;
+
+        int i = chars.length/2;
+        boolean keepLooking = true;
+        for(int j = i; keepLooking; i--,j++){
+            keepLooking = i >= 0 && j < chars.length && i >= palindrome.length() && chars.length - j <= palindrome.length();
+            String iPalindrome = getPalindrome(s, i);
+            String jPalindrome = getPalindrome(s, j);
+
+            String newPalindrome = iPalindrome.length() >= jPalindrome.length() ? iPalindrome : jPalindrome;
+            if(palindrome.length() <= newPalindrome.length()){
+                palindrome = newPalindrome;
             }
-            String evenPalindrome = getLongestPalindrome(s, i, i+1);
-            if(evenPalindrome.length() > palindrome.length ()){
-                palindrome = evenPalindrome;
-            }
+        }
+
+        return palindrome;
+    }
+
+    private String getPalindrome(String s, int i){
+        String palindrome = "";
+        String oddPalindrome = getLongestPalindrome(s, i, i);
+        if(oddPalindrome.length() > palindrome.length()){
+            palindrome = oddPalindrome;
+        }
+        String evenPalindrome = getLongestPalindrome(s, i,i+1);
+        if(evenPalindrome.length() > palindrome.length ()){
+            palindrome = evenPalindrome;
         }
 
         return palindrome;
