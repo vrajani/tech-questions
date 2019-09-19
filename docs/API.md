@@ -1,0 +1,3 @@
+###Types of APIs
+
+There are numerous types of APIs. For example, you may have heard of Java APIs, or interfaces within classes that let objects talk to each other in the Java programming language. Along with program-centric APIs, there are also Web APIs such as the Simple Object Access Protocol (SOAP), Remote Procedure Call (RPC), and perhaps the most popular—at least in name— Representational State Transfer (REST). 
