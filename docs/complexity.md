@@ -2,7 +2,7 @@
 
 Big Oh notation is representation of the worst case performance of a given algorithm.
 
-The growth rate of complexity from low to higher:
+The growth sequence of complexity from low to higher:
 
 ```$xslt
 1 < log(n) < n < n*log(n) < n^2 < n^3 < 2^n < n!
